@@ -7,6 +7,11 @@ public class CinamachineController : MonoBehaviour
     private Animator anim;
     private bool isGroupCamera = true;
 
+    public GameObject PlayerFollow;
+    public GameObject BladeFollow;
+    public GameObject PlatformFollow;
+
+
     private void Awake()
     {
         anim = GetComponent<Animator>(); 
